@@ -1,22 +1,3 @@
-//============================================================================
-// Name        : Stack.cpp
-// Author      : NINAD MANJARAMKAR
-// Version     : FINAL VERSION
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
-//============================================================================
-//
-//
-/*
- * TO CHECK IF THE GIVEN EXPRESSION IS BALANCED:
- * CREATE A STACK(CHAR TYPE)
- * TAKE INPUT FROM USER IN FORM OF CHAR ARRAY
- * SCAN INPUT EXPRESSION CHARECTER BY CHARECTER
- * IF CHAR IS OPENING TYPE('(','[','{') THEN PUSH IT ONTO STACK
- * IF CHAR IS CLOSING TYPE(')',']','}') THEN IF TOP OF STACK IS A MATCHING OPENING TYPE THEN POP TOP ELEMENT.
- * IF ALL ELEMENTS ARE POPPED OR IF STACKEMPTY THEN EXPRESSION IS BALANCED.
- * OPTIONALLY STACK CONTENTS CAN ALSO BE DISPLAYED.
- */
 #include <iostream>
 #include <cstring>
 
